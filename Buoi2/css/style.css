@@ -1,0 +1,31 @@
+.inline-class,
+.block-class,
+.inline-block-class {
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 50px;
+}
+
+.inline-class span, .inline-block-class span, .block-class span {
+    padding: 5px 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.inline-class span {
+    display: inline;
+}
+
+.block-class span {
+    display: block;
+}
+
+.inline-block-class {
+    display: inline-block;
+}
+
+
+
+
