@@ -1,15 +1,45 @@
 body {
-    padding: 20px;
-    margin: auto;
-    /* font chu */
-    font-family: "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-    background-color: rgb(232, 232, 175);
-    display: flex;
-    justify-content: center;
+  padding: 0;
+  margin: 0;
+  /* font chu */
+  font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  background-color: rgb(232, 232, 175);
+  text-align: center;
 }
 
 div {
-    width: auto;
-    height: auto;
-    background-color: transparent;
+  width: 450px;
+  height: auto;
+  background-color: transparent;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: large;
+  font-weight: 800;
 }
+
+.information,
+#image {
+  width: 500px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.4);
+  /* background: #E1BAB2; */
+}
+
+#image {
+  padding-top: 150px;
+}
+
+.information {
+  padding-top: 20px;
+}
+
+.information > ul, .information > ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
