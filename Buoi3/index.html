@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex - box</title>
+
+    <!-- Nhung link gg font vao day -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Code CSS trong file HTML  -->
+    <style>
+      .a {
+        color: red;
+        font-size: 30px;
+      }
+
+      #b {
+        color: orange;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1. Nhung thuoc tinh font-family cho div -->
+    <div style="font-family: 'Fruktur', cursive; font-size: 45px">
+      font-family: 'Fruktur', cursive
+    </div>
+
+    <!-- 2. CSS selector - by class -->
+    <div class="a">select by class: color red</div>
+
+    <!-- 2. CSS selector - by id -->
+    <div id="b">select by id: color orange</div>
+
+    <!-- Flex-box -->
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+        height: 100px;
+      }
+    </style>
+
+    <div class="container">
+      <div class="item">item</div>
+      <div class="item">item</div>
+      <div class="item">item</div>
+    </div>
+
+    <!-- flex-direction -->
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        /* column-reverse, row */
+      }
+    </style>
+
+    <div class="container">
+      <div class="item">item1</div>
+      <div class="item">item2</div>
+      <div class="item">item3</div>
+    </div>
+
+    <!-- flex-wrap -->
+    <link rel="stylesheet" href="./css/flex.css" />
+
+    <!-- flex-wrap: wrap -->
+    <p><strong> This is example for flex-wrap: wrap </strong></p>
+    <div class="content1">
+        <div class="red">1</div>
+        <div class="green">2</div>
+        <div class="blue">3</div>
+    </div>
+
+    <!-- flex-wrap: no wrap -->
+    <p><strong> This is example for flex-wrap: nowrap </strong></p>
+    <div class="content2">
+        <div class="red">1</div>
+        <div class="green">2</div>
+        <div class="blue">3</div>
+    </div>
+
+    <!-- flex-wrap: wrap reverse -->
+    <p><strong> This is example for flex-wrap: wrap-reverse </strong></p>
+    <div class="content3">
+        <div class="red">1</div>
+        <div class="green">2</div>
+        <div class="blue">3</div>
+    </div>
+
+  </body>
+</html>
