@@ -1,0 +1,45 @@
+.content1,
+.content2,
+.content3 {
+  color: bisque;
+  font: 100 24px/100px sans-serif;
+  width: 897px;
+  height: 150px;
+  text-align: center;
+  display: flex;
+}
+
+.content1 div,
+.content2 div,
+.content3 div {
+  width: 300px;
+  /* height: 50%; */
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
+
+.green {
+  background: green;
+}
+
+/* Flexbox styles */
+.content1 {
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.content2 {
+    overflow: auto;
+    flex-wrap: nowrap;
+}
+
+.content3 {
+    overflow: scroll;
+    flex-wrap: wrap-reverse;
+}
