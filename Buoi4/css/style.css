@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  /* center */
+  width: 80%;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: black !important;
+  position: sticky;
+  width: 100%;
+  z-index: 1;
+  padding: 10px;
+
+  /* items center */
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-item {
+  color: white !important;
+  padding: 10px 15px;
+  height: 100%;
+}
+
+.navbar-item:hover {
+    background-color: aliceblue;
+    color: black !important;
+}
+
+#home {
+    margin: auto;
+    max-width: 980px;
+}
+
+.center {
+    text-align: center;
+}
+
+.padding-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+.slides {
+    width: 100%;
+}
