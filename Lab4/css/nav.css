@@ -1,0 +1,41 @@
+.hor ul, .ver ul  {
+    overflow: hidden;
+    background-color: rgb(221, 203, 244);
+}
+.ver {
+  height: 600px;
+}
+
+.ver ul {
+    width: 20%;
+    float: left;
+    padding-left: 0;
+    height: 100%;
+}
+
+
+.hor li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.ver li a {
+    text-align: left;
+    margin: 0;
+}
+
+li a:hover {
+    color: white;
+    background-color: rgb(168, 92, 238);
+}
+
+.active {
+    color: white;
+    background-color: rgb(168, 92, 238); 
+}
