@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The band</title>
+
+    <link rel="stylesheet" href="css/theband.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="#home" class="nav-item">Home</a>
+      <a href="#about" class="nav-item">About</a>
+      <a href="#members" class="nav-item">Members</a>
+      <a href="#contact" class="nav-item">Contact</a>
+    </nav>
+
+    <div id="home">
+      <!-- Slides -->
+      <img
+        class="slides"
+        src="https://www.w3schools.com/w3css/img_la.jpg"
+        alt="slide"
+        width="100%"
+      />
+      <img
+        class="slides"
+        src="https://www.w3schools.com/w3css/img_ch.jpg"
+        alt="slide"
+        width="100%"
+      />
+      <img
+        class="slides"
+        src="https://www.w3schools.com/w3css/img_ny.jpg"
+        alt="slide"
+        width="100%"
+      />
+
+      <script>
+        w3.slideshow(".slides", 1500);
+      </script>
+
+      <!-- About -->
+      <div id="about">
+        <h1 class="center">The Band</h1>
+        <p>
+          This is our band website. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+
+      <!-- Members -->
+      <div id="members">
+        <h1 class="center">Band Members</h1>
+        <div class="row center">
+          <div class="third">
+            <img
+              src="https://www.w3schools.com/w3css/img_bandmember.jpg"
+              alt="member 1"
+            />
+          </div>
+
+          <div class="third">
+            <img
+              src="https://www.w3schools.com/w3css/img_bandmember.jpg"
+              alt="member 1"
+            />
+          </div>
+
+          <div class="third">
+            <img
+              src="https://www.w3schools.com/w3css/img_bandmember.jpg"
+              alt="member 1"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div id="contact">
+        <h1 class="center">Contact</h1>
+        Vietnam, HCMCity <br />
+        Phone: +84 764 699 015 <br />
+        Email: contact@gamil.com <br />
+
+        <p class="opacity center"><i>Fan? Drop a note!</i></p>
+
+        <!-- Form -->
+        <form action="html/fanInfor.html" target="_blank">
+          <input
+            type="text"
+            class="input"
+            placeholder="Name"
+            required
+            name="Name"
+          />
+          <input
+            type="text"
+            class="input"
+            placeholder="Email"
+            required
+            name="Email"
+          />
+          <input
+            type="text"
+            class="input"
+            placeholder="Message"
+            required
+            name="Message"
+          />
+          <button type="submit" class="form-button">SEND</button>
+        </form>
+
+        <!-- Map -->
+        <br />
+        <img
+          src="https://www.w3schools.com/w3css/map.jpg"
+          alt="map"
+          class="map"
+          style="width: 100%"
+        />
+
+        <!-- Footer -->
+        <p class="center">Powered by <a href="#home">theBand.html</a></p>
+      </div>
+    </div>
+  </body>
+</html>
