@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup form 💗</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Slider - carousel -->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      style="max-width: 500px"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://i.pinimg.com/564x/6b/d1/54/6bd154bd5063346b69c82a56e625b941.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://i.pinimg.com/564x/11/a9/ba/11a9ba77628d5719b53d9aaa8b9238a1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://i.pinimg.com/564x/e9/67/c8/e967c82cb3cbd32d74ba33acd612ddca.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Font awesome icon -->
+    <i
+      class="fa-solid fa-user"
+      style="color: blue; font-size: 25px; font-weight: 800"
+    ></i>
+
+    <!-- Form -->
+    <form action="html/action.html" method="get">
+      <label for="fname">First name: </label>
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="First name"
+        required
+      />
+      <br />
+
+      <label for="lname">Last name: </label>
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Last name"
+        required
+      />
+      <br />
+
+      <label for="pass">Password: </label>
+      <input
+        type="password"
+        minlength="6"
+        maxlength="20"
+        placeholder="Type your password"
+        id="pass"
+        name="pass"
+        required
+      />
+      <br />
+
+      <label for="email">Email: </label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Type your email"
+      />
+      <br />
+
+      <label for="phone">Phone: </label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Type your phone number"
+      />
+      <br />
+
+      <label for="quantity">Quantity: </label>
+      <input
+        type="number"
+        id="quantity"
+        name="quantity"
+        max="10"
+        min="1"
+        value="1"
+      />
+      <br />
+
+      <label for="bdate">Birthdate: </label>
+      <input type="date" id="bdate" name="bdate" />
+      <br />
+
+      <label for="city">City: </label>
+      <select name="city" id="city">
+        <option value="Tp.HCM" name="city">Tp.HCM</option>
+        <option value="Hanoi" name="city">Hanoi</option>
+        <option value="Tp.Danang" name="city">Tp.Danang</option>
+      </select>
+      <br />
+
+      <label for="gender">Gender: </label>
+
+      <input type="radio" id="male" name="gender" value="Male" />
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="Female" />
+      <label for="female">Female</label>
+
+      <input type="radio" id="other" name="gender" value="Other" />
+      <label for="other">Other</label>
+      <br />
+
+      <input type="checkbox" id="subscribe" name="subscribe" />
+      <label for="subscribe">Subscribe</label>
+      <br />
+
+      <input type="reset" value="Reset button" />
+      <input type="submit" value="submit button" onclick="getUserInformation()"/>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/08c4cc6c98.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
